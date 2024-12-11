@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Big Brew</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Big Brew Logo">
+    </div>
+    <nav>
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle" id="menuToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+  
+  <div class="sidebar" id="sidebar">
+    <button class="close-btn" id="closeBtn">&times;</button>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </div>
+
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>We'd love to hear from you! Please use the form below to get in touch with us.</p>
+    <form action="#" method="post" class="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Big Brew is committed to delivering the finest coffee experience. We blend passion, quality, and innovation to bring you the perfect cup every time.</p>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2024 Big Brew</p>
+      <p>Follow us on <a href="https://www.instagram.com/bigbrew.main/">Instagram</a>, <a href="https://www.facebook.com/profile.php?id=100067528623862">Facebook</a>, <a href="https://www.tiktok.com/@bigbrewmain">TikTok</a>.</p>
+    </div>
+  </footer>
+
+  <script src="contact.js"></script>
+</body>
+</html>
